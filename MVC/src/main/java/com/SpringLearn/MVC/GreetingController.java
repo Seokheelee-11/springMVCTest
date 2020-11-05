@@ -1,4 +1,4 @@
-package com.SpringLearn.controller;
+package com.SpringLearn.MVC;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

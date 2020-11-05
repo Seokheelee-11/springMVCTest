@@ -1,0 +1,11 @@
+
+spring:   resources:    static-locations:    - classpath:/static/
+    cache:      period: 0
+  thymeleaf:
+    prefix: classpath:/templates/
+    encoding: UTF-8
+    check-template-location: true
+    suffix: .html
+    cache: false  mvc:    static-path-pattern: /static/**
+      devtools:    livereload:      enabled: true
+ 
